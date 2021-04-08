@@ -1,0 +1,12 @@
+
+.image1{
+  background-image:
+  url('https://www.albawaba.com/sites/default/files/im_new/rubaAbdelhadi/ABC-bank.jpg?width=1200&enable=upscale') ;
+  background-size:cover;
+}
+.head{
+color: white;
+} 
+.home{
+  background-position: center;
+}

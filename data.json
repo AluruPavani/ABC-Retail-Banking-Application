@@ -1,0 +1,233 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "ChandraKala",
+      "email": "kala@gmail.com",
+      "password": "Chandu@123",
+      "role": "Admin",
+      "accno": 78906544322,
+      "number": 8500318212,
+      "aadhar": "948062545376",
+      "address": {
+        "doorNo": "10-1-529/A",
+        "street": "surendraNagar",
+        "city": "Trivendrum",
+        "state": "Kerala",
+        "pincode": 516227
+      },
+      "balance": 10000,
+      "currentbalance": 15500,
+      "AccountType": {
+        "cType": "current",
+        "sType": "savings"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Venkateswarlu",
+      "email": "venky@gmail.com",
+      "password": "Venky@456",
+      "role": "Admin",
+      "accno": 78706548723,
+      "number": 9391881737,
+      "aadhar": "135425453726",
+      "address": {
+        "doorNo": "10-2-526",
+        "street": "sumitraNagar",
+        "city": "Panaji",
+        "state": "Goa",
+        "pincode": 516298
+      },
+      "balance": 15000,
+      "currentbalance": 10000,
+      "AccountType": {
+        "cType": "current",
+        "sType": "savings"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Tejaswini",
+      "email": "teja@gmail.com",
+      "password": "Teja@321",
+      "accno": 75470655423,
+      "number": 7673931319,
+      "aadhar": "145785875452",
+      "address": {
+        "doorNo": "5-526",
+        "street": "Koti",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "pincode": 766298
+      },
+      "balance": 5000,
+      "currentbalance": 6000,
+      "AccountType": {
+        "cType": "current",
+        "sType": "savings"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Pavani",
+      "email": "panni@gmail.com",
+      "password": "Panni@789",
+      "role": "User",
+      "accno": 34034017809,
+      "number": 7673721867,
+      "aadhar": "402179922947",
+      "address": {
+        "doorNo": "3-7-129",
+        "street": "RudraNagar",
+        "city": "Chennai",
+        "state": "Tamilnadu",
+        "pincode": 766598
+      },
+      "balance": 3000,
+      "currentbalance": 5000,
+      "AccountType": {
+        "cType": "current",
+        "sType": "savings"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Riyan",
+      "email": "riyan@gmail.com",
+      "password": "Riyan@125",
+      "role": "User",
+      "accno": 75470655662,
+      "number": 8328438904,
+      "aadhar": "146585887654",
+      "address": {
+        "doorNo": "3-5-329",
+        "street": "SivaNagar",
+        "city": "Warangal",
+        "state": "Madhya Pradesh",
+        "pincode": 546498
+      },
+      "balance": 7000,
+      "currentbalance": 8000,
+      "AccountType": {
+        "cType": "current",
+        "sType": "savings"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Suleman",
+      "email": "sullu@gmail.com",
+      "password": "Sullu@564",
+      "role": "User",
+      "accno": 76757065542,
+      "number": 7668577977,
+      "aadhar": "145657857452",
+      "address": {
+        "doorNo": "4-768",
+        "street": "DilshukNagar",
+        "city": "BanjaraHills",
+        "state": "Bihar",
+        "pincode": 765798
+      },
+      "balance": 8000,
+      "currentbalance": 9000,
+      "AccountType": {
+        "cType": "current",
+        "sType": "savings"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Arifa",
+      "email": "arifa@gmail.com",
+      "password": "Arifa@986",
+      "role": "Admin",
+      "accno": 76789095426,
+      "number": 6576876879,
+      "aadhar": "453525875452",
+      "address": {
+        "doorNo": "6-688",
+        "street": "AmitNagar",
+        "city": "Vijayawada",
+        "state": "Coastal Andhra",
+        "pincode": 456355
+      },
+      "balance": 5500,
+      "currentbalance": 6500,
+      "AccountType": {
+        "cType": "current",
+        "sType": "savings"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Saleem",
+      "email": "saleem@gmail.com",
+      "password": "Saleem@128",
+      "role": "Admin",
+      "accno": 56467065592,
+      "number": 9701234563,
+      "aadhar": "145785678943",
+      "address": {
+        "doorNo": "7-8-98",
+        "street": "BalajiNagar",
+        "city": "Tirupati",
+        "state": "Andhra Pradesh",
+        "pincode": 658787
+      },
+      "balance": 3500,
+      "currentbalance": 8500,
+      "AccountType": {
+        "cType": "current",
+        "sType": "savings"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Riya",
+      "email": "riya@gmail.com",
+      "password": "Riya@341",
+      "role": "Admin",
+      "accno": 75576545542,
+      "number": 7981522564,
+      "aadhar": "356485875452",
+      "address": {
+        "doorNo": "8-4-89",
+        "street": "MarutiNagar",
+        "city": "Barista",
+        "state": "Mumbai",
+        "pincode": 766298
+      },
+      "balance": 5000,
+      "currentbalance": 6000,
+      "AccountType": {
+        "cType": "current",
+        "sType": "savings"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Ameen",
+      "email": "ameen@gmail.com",
+      "password": "Ameen@265",
+      "role": "User",
+      "accno": 75445565842,
+      "number": 7673756577,
+      "aadhar": "145785678942",
+      "address": {
+        "doorNo": "7-10-869",
+        "street": "SrinidhiNagar",
+        "city": "Ambica Circle",
+        "state": "Rajasthan",
+        "pincode": 778968
+      },
+      "balance": 2500,
+      "currentbalance": 7000,
+      "AccountType": {
+        "cType": "current",
+        "sType": "savings"
+      }
+    }
+  ]
+}
