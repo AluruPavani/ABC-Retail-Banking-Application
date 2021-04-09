@@ -21,6 +21,7 @@ const UserInfo = (props) => {
 
     const { id } = useParams();
     useEffect(() => {
+
         loadUser();
     }, []);
 
@@ -28,18 +29,7 @@ const UserInfo = (props) => {
         const res = await axios.get(`http://localhost:3000/users/${id}`);
         setUser(res.data);
     }
-    const userButton1 = () => {
-        props.history.push('/addamount');
-    }
-    const currentAddAmount = () => {
-        props.history.push('/addcurrent');
-    }
-    const userButton2 = () => {
-        props.history.push('/withdraw');
-    }
-    const currentWithDrawAmount = () => {
-        props.history.push('/currentsub');
-    }
+    
     const currentButton = () => {
         setShowBotton(!true);
     }
@@ -80,9 +70,7 @@ const UserInfo = (props) => {
                         showButton === true && (
                             <div>
                                 <hr />
-                                <button class="btn btn-outline-success btnAdd" onClick={userButton1}>Deposit</button><br/><br/>
-                                <button class="btn btn-outline-danger btnAdd" onClick={userButton2}>Withdraw</button>
-                                <br /><br />
+                                
                                 <ListGroup>
                                     <ListGroup.Item>Account Holder Name: {user.name}</ListGroup.Item>
                                     <ListGroup.Item>Account No: {user.accno}</ListGroup.Item>
@@ -96,9 +84,7 @@ const UserInfo = (props) => {
                         )}{(showButton === false &&
                             <div>
                                 <hr />
-                                <button class="btn btn-outline-success btnAdd" onClick={currentAddAmount}>Deposit</button><br/><br/>
-                                <button class="btn btn-outline-danger btnAdd" onClick={currentWithDrawAmount}>Withdraw</button>
-                                <br /><br />
+                                
                                 <ListGroup>
                                     <ListGroup.Item>Account Holder Name: {user.name}</ListGroup.Item>
                                     <ListGroup.Item>Account No: {user.accno}</ListGroup.Item>
